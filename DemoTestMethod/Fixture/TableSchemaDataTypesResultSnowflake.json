@@ -1,0 +1,552 @@
+{
+  "dbName": "DOD2026_DB",
+  "schema": "DOD2026_DEMO",
+  "tableName": "TestTableWithAllPossibleDataTypes",
+  "columnInfos": [
+    {
+      "field": "Id",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": false,
+      "isIdentity": true,
+      "isPrimaryKey": true
+    },
+    {
+      "field": "Number_18_3",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 18,
+      "numericScale": 3,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Number_21_0",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 21,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "NumberCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Decimal_16_2",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 16,
+      "numericScale": 2,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Decimal_18_0",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Int64",
+      "numericPrecision": 18,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "DecimalCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Numeric_15_3",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 15,
+      "numericScale": 3,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Numeric_18_0",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Int64",
+      "numericPrecision": 18,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "NumericCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "IntCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "IntegerCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "BigIntCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "SmallIntCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "TinyIntCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "ByteIntCol",
+      "snowflakeType": "NUMBER",
+      "dotNetType": "System.Decimal",
+      "numericPrecision": 38,
+      "numericScale": 0,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "FloatCol",
+      "snowflakeType": "FLOAT",
+      "dotNetType": "System.Double",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "DoubleCol",
+      "snowflakeType": "FLOAT",
+      "dotNetType": "System.Double",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "DoublePrecisionCol",
+      "snowflakeType": "FLOAT",
+      "dotNetType": "System.Double",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "RealCol",
+      "snowflakeType": "FLOAT",
+      "dotNetType": "System.Double",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "VarcharCol",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 16777216,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Varchar_255",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 255,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Varchar_50",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 50,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Varchar_50_UTF8_upper",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 50,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false,
+      "collation": "utf8-upper"
+    },
+    {
+      "field": "Varchar_50_UTF8_lower",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 50,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false,
+      "collation": "utf8-lower"
+    },
+    {
+      "field": "CharCol",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 1,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Char_5",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 5,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "CharacterCol",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 1,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Character_5",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 5,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "StringCol",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 16777216,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "String_255",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 255,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "String_50",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 50,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "TextCol",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 16777216,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Text_255",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 255,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Text_50",
+      "snowflakeType": "TEXT",
+      "dotNetType": "System.String",
+      "characterMaximumLength": 50,
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "BooleanCol",
+      "snowflakeType": "BOOLEAN",
+      "dotNetType": "System.Boolean",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "DateCol",
+      "snowflakeType": "DATE",
+      "dotNetType": "System.DateTime",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "DateTimeCol",
+      "snowflakeType": "TIMESTAMP_NTZ",
+      "dotNetType": "System.DateTime",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "TimeCol",
+      "snowflakeType": "TIME",
+      "dotNetType": "System.TimeSpan",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "TimeStampCol",
+      "snowflakeType": "TIMESTAMP_NTZ",
+      "dotNetType": "System.DateTime",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "TimeStampWithLocalTimeZone",
+      "snowflakeType": "TIMESTAMP_LTZ",
+      "dotNetType": "System.DateTimeOffset",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "TimeStampNoTimeZone",
+      "snowflakeType": "TIMESTAMP_NTZ",
+      "dotNetType": "System.DateTime",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "TimeStampTimeZone",
+      "snowflakeType": "TIMESTAMP_TZ",
+      "dotNetType": "System.DateTimeOffset",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "VariantCol",
+      "snowflakeType": "VARIANT",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "ArrayCol",
+      "snowflakeType": "ARRAY",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "ObjectCol",
+      "snowflakeType": "OBJECT",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Float4Col",
+      "snowflakeType": "FLOAT",
+      "dotNetType": "System.Double",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Float8Col",
+      "snowflakeType": "FLOAT",
+      "dotNetType": "System.Double",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "DecFloatCol",
+      "snowflakeType": "DECFLOAT",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "BinaryCol",
+      "snowflakeType": "BINARY",
+      "dotNetType": "System.Byte[]",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Binary_128",
+      "snowflakeType": "BINARY",
+      "dotNetType": "System.Byte[]",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "VarbinaryCol",
+      "snowflakeType": "BINARY",
+      "dotNetType": "System.Byte[]",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Varbinary_128",
+      "snowflakeType": "BINARY",
+      "dotNetType": "System.Byte[]",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "StructuredArrayCol",
+      "snowflakeType": "ARRAY",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "StructuredObjectCol",
+      "snowflakeType": "OBJECT",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "MapCol",
+      "snowflakeType": "MAP",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "FileCol",
+      "snowflakeType": "FILE",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "GeographyCol",
+      "snowflakeType": "GEOGRAPHY",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "GeometryCol",
+      "snowflakeType": "GEOMETRY",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "UuidCol",
+      "snowflakeType": "UUID",
+      "dotNetType": "System.Guid",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Vector_Float_256",
+      "snowflakeType": "VECTOR",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    },
+    {
+      "field": "Vector_Int_16",
+      "snowflakeType": "VECTOR",
+      "dotNetType": "System.String",
+      "isNullable": true,
+      "isIdentity": false,
+      "isPrimaryKey": false
+    }
+  ]
+}

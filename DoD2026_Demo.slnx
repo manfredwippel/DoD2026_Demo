@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DemoTestMethod/DemoTestMethod.csproj" />
+  <Project Path="DoD2026_Demo/DoD2026_Demo.csproj" />
+  <Project Path="DoD2026_Snowflake/DoD2026_Snowflake.csproj" />
+</Solution>
